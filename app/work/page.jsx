@@ -41,7 +41,7 @@ const work = [
     description: "Company Website",
     technology: "React, Node.js, MongoDB",
     photo: neoTechServices,
-    href: "",
+    href: "/work",
   },
 ];
 
