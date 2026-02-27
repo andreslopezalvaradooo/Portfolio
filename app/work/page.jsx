@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/carousel";
 import Image from "next/image";
 import cookingDate from "@/public/assets/cookingDate.png";
-import work2 from "@/public/assets/work2.jpeg";
+import storytime from "@/public/assets/storytime.png";
 import neoTechServices from "@/public/assets/neoTechServices.png";
 import { useEffect, useState } from "react";
 import { Separator } from "@/components/ui/separator";
@@ -32,8 +32,8 @@ const work = [
     name: "Story Time",
     description: "Create and share stories",
     technology: "Node.js, Express, MongoDB",
-    photo: work2,
-    href: "",
+    photo: storytime,
+    href: "https://storytime-p7s0.onrender.com/",
   },
   {
     num: "03",
