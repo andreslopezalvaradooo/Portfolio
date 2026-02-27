@@ -25,15 +25,22 @@ const work = [
     technology:
       "Node.js, Express.js, MongoDB, Socket.io, Vite, React, Javascript, Tailwind CSS, Chakra UI, Redux.js",
     photo: cookingDate,
-    href: "https://cookingdate-nday.onrender.com",
+    href: {
+      web: "https://cookingdate-nday.onrender.com",
+      github: "https://github.com/andreslopezalvaradooo/CookingDatev3.git",
+    },
   },
   {
     num: "02",
-    name: "Story Time",
+    name: "Storytime",
     description: "Create and share stories",
-    technology: "Node.js, Express, MongoDB",
+    technology:
+      "Go, MongoDB, Deep Infra, Vite, React, Three/fiber/drei, Tailwind CSS, DaisyUI",
     photo: storytime,
-    href: "https://storytime-p7s0.onrender.com/",
+    href: {
+      web: "https://storytime-p7s0.onrender.com",
+      github: "https://github.com/andreslopezalvaradooo/Storytime.git",
+    },
   },
   {
     num: "03",
@@ -41,7 +48,7 @@ const work = [
     description: "Company Website",
     technology: "React, Node.js, MongoDB",
     photo: neoTechServices,
-    href: "/work",
+    href: { web: "", github: "" },
   },
 ];
 
