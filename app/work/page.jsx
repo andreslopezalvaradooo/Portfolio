@@ -85,14 +85,14 @@ const Work = () => {
 
         <div className="absolute md:static right-4 md:right-auto top-4 md:top-auto flex gap-4">
           <Link
-            href={currentProject.href}
+            href={currentProject.href.web}
             className="hover:text-accent hover:-rotate-45 transition-all duration-300"
           >
             <TbArrowRightToArc size={25} />
           </Link>
 
           <Link
-            href={currentProject.href}
+            href={currentProject.href.github}
             className="hover:text-accent transition-all duration-300"
           >
             <SiGithub size={25} />
