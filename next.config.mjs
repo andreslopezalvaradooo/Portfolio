@@ -2,7 +2,8 @@
 const nextConfig = {
   /* config options here */
   reactCompiler: true,
-  images: { qualities: [25, 50, 75, 100] },
+
+  images: { qualities: [25, 50, 75, 100], unoptimized: true },
   output: "export",
 };
 

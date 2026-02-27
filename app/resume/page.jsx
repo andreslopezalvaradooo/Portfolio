@@ -125,7 +125,7 @@ const SkillCard = ({ icon: Icon, name, level }) => (
 
 const Resume = () => (
   <main className="container h-[calc(100dvh-65px)] flex justify-center">
-    <Tabs defaultValue="experience" className="w-full">
+    <Tabs defaultValue="skills" className="w-full">
       <aside className="md:w-1/3 flex flex-col gap-6">
         <div>
           <h1 className="text-4xl lg:text-5xl font-bold">Why hire me?</h1>
