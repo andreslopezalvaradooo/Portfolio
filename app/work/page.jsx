@@ -85,6 +85,8 @@ const Work = () => {
 
         <div className="absolute md:static right-4 md:right-auto top-4 md:top-auto flex gap-4">
           <Link
+            target="_blank"
+            rel="noopener noreferrer"
             href={currentProject.href.web}
             className="hover:text-accent hover:-rotate-45 transition-all duration-300"
           >
@@ -92,6 +94,8 @@ const Work = () => {
           </Link>
 
           <Link
+            target="_blank"
+            rel="noopener noreferrer"
             href={currentProject.href.github}
             className="hover:text-accent transition-all duration-300"
           >
