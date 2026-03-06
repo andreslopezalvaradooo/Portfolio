@@ -109,7 +109,7 @@ const Work = () => {
 
       <Carousel
         setApi={setApi}
-        className="w-2/5 m-12 flex items-center justify-center order-0 md:order-1"
+        className="bg-white w-auto md:w-1/2 m-12 flex items-center justify-center order-0 md:order-1"
       >
         <CarouselContent>
           {work.map((item, index) => (

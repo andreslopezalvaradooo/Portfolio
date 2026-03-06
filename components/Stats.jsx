@@ -9,11 +9,11 @@ const stats = [
 
 const Stats = () => {
   return (
-    <section className="grid grid-cols-2 md:flex gap-2 md:gap-6">
+    <section className="grid grid-cols-2 md:flex gap-1 md:gap-6">
       {stats.map((stat, index) => (
         <div
           key={index}
-          className="flex items-center justify-start md:justify-center gap-2"
+          className="flex items-center justify-start md:justify-center gap-1"
         >
           <CountUp
             end={stat.num}

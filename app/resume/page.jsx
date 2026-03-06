@@ -108,6 +108,8 @@ const SkillCard = ({ icon: Icon, name, level }) => (
   <div className="bg-primary p-4 flex justify-center rounded-md">
     <Tooltip>
       <TooltipTrigger className="flex flex-col items-center gap-2 group">
+        <h3 className="text-sm text-accent sm:hidden">{name}</h3>
+
         <Icon
           size={50}
           className="group-hover:text-accent transition-all duration-500"
@@ -150,11 +152,13 @@ const Resume = () => (
           description="Technologies and tools I use regularly."
         />
 
-        <div className="grid grid-cols-4 gap-3">
-          {skills.map((skill, i) => (
-            <SkillCard key={i} {...skill} />
-          ))}
-        </div>
+        <ScrollArea className="flex-1 overflow-y-auto">
+          <div className="grid grid-cols-3 gap-3">
+            {skills.map((skill, i) => (
+              <SkillCard key={i} {...skill} />
+            ))}
+          </div>
+        </ScrollArea>
       </TabsContent>
 
       <TabsContent value="aboutMe">
