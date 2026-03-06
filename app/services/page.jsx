@@ -15,7 +15,7 @@ const services = [
   },
   {
     num: "03",
-    title: "Web Interactiva y 3D",
+    title: "Interactive & 3D Web",
     text: "I develop interactive web experiences and 3D animations using react-three-fiber and Three.js. From animated elements to full three-dimensional scenes, I integrate dynamic content with a professional aesthetic.",
   },
   {

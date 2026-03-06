@@ -34,7 +34,7 @@ const work = [
     num: "02",
     name: "NeoTech Services",
     description: "Company Website",
-    technology: "React, Node.js, MongoDB",
+    technology: "NextJS, Better Auth, Prisma, Tailwind CSS, Shadcn/UI",
     photo: neoTechServices,
     href: {
       web: "https://neotechservices.onrender.com",
