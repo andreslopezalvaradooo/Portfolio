@@ -10,7 +10,7 @@ import {
 import Image from "next/image";
 import cookingDate from "@/public/assets/cookingDate.png";
 import storytime from "@/public/assets/storytime.png";
-import neoTechServices from "@/public/assets/neoTechServices.png";
+import neoTechServices from "@/public/assets/NTS-logo.svg";
 import { useEffect, useState } from "react";
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
@@ -32,6 +32,17 @@ const work = [
   },
   {
     num: "02",
+    name: "NeoTech Services",
+    description: "Company Website",
+    technology: "React, Node.js, MongoDB",
+    photo: neoTechServices,
+    href: {
+      web: "https://neotechservices.onrender.com",
+      github: "https://github.com/andreslopezalvaradooo/NeoTechServices.git",
+    },
+  },
+  {
+    num: "03",
     name: "Storytime",
     description: "Create and share stories",
     technology:
@@ -41,14 +52,6 @@ const work = [
       web: "https://storytime-p7s0.onrender.com",
       github: "https://github.com/andreslopezalvaradooo/Storytime.git",
     },
-  },
-  {
-    num: "03",
-    name: "NeoTech Services",
-    description: "Company Website",
-    technology: "React, Node.js, MongoDB",
-    photo: neoTechServices,
-    href: { web: "", github: "" },
   },
 ];
 
